@@ -540,7 +540,7 @@ body {
     }
     &__nav.swiper-wrapper {
       padding: 14px;
-      display: grid;
+      display: none;
       grid-template-columns: 50% 50%;
       gap: 14px;
     }
@@ -1300,6 +1300,7 @@ body {
 
     .es-info {
       &__nav.swiper-wrapper {
+        display: grid;
         padding: 24px;
         grid-template-columns: 23% 23% 23% 23%;
       }

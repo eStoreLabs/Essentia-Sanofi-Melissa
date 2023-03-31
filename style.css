@@ -482,7 +482,7 @@ body {
 }
 #es-essentia.es-essentia .es-info__nav.swiper-wrapper {
   padding: 14px;
-  display: grid;
+  display: none;
   grid-template-columns: 50% 50%;
   gap: 14px;
 }
@@ -1187,6 +1187,7 @@ body {
     transform: rotate(45deg);
   }
   #es-essentia.es-essentia .es-info__nav.swiper-wrapper {
+    display: grid;
     padding: 24px;
     grid-template-columns: 23% 23% 23% 23%;
   }
